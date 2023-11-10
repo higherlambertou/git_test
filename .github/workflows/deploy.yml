@@ -26,5 +26,5 @@ jobs:
       # Runs a Python HTTP server to serve your HTML file
       - name: Serve HTML
         run: |
-          cd /Users/lambert/git_test/index.html
+          cd /Users/lambert/git_test
           python3 -m http.server 8000
